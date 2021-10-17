@@ -1,0 +1,32 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    background-color: steelblue;
+    color: white;
+    font-size: 6px;
+}
+.site-title{
+    color: rgb(216, 108, 21);
+}
+#my-image{
+    box-shadow: 5px 3px black;
+}
+ul.square{
+    list-style-type: square;
+}
+li:nth-child(odd) {
+    background-color: cadetblue;
+    color: rgb(221, 210, 195);
+}
+a {
+    background-color: steelblue;
+    color: white;
+    border: tomato;
+    text-decoration: none
+}
+a:hover{
+    background-color: tomato;
+    color: thistle;
+}
