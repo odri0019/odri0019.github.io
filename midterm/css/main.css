@@ -1,0 +1,62 @@
+.site-title{
+    font-size: 300%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#poorguy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding-right: 40px;
+}
+a:hover{
+    color: seashell;
+}
+body{
+    background-color: rgb(115, 196, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    border: seashell;
+    border-style: double;
+    padding-bottom: 10px;
+}
+form{
+    padding-top: 10px;
+}
+#subheaders{
+    font-size: 200%;
+}
+#lesswideboi{
+    float: left;
+    max-width: 150px;
+    max-height: 150px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+.double-space{
+    line-height: 1.6;
+}
+section{
+    border-style: groove;
+    border-color: seashell;
+}
+footer{
+    text-align: right;
+    padding-top: 15px;
+}
