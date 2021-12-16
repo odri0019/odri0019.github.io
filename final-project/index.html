@@ -4,8 +4,10 @@
       <title>Three Star Media</title>
   </head>
   <body>
+    <link href="css/main.css" rel="stylesheet">
       <header>
-          <section> <!--i linked each anchor to each portion of the page via id tag-->
+          <section id="search-bar"> <!--i linked each anchor to each portion of the page via id tag-->
+             <img id="logo" src="images/logo.png" alt="logo">
              <a href="#home">Home</a>
              <a href="#about-us">About Us</a>
              <a href="#our-services">Services</a>
@@ -14,13 +16,15 @@
              <input type="text" placeholder="Search">
           </section>
       </header>
-      <section>
+      <article id="site-title">
           <h1 id="home">Welcome to Three Star Media</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto esse porro laborum nostrum fugit? Ad modi veniam, quis cupiditate, cum dicta officia voluptate incidunt sit obcaecati adipisci possimus corporis dolorem.</p>
-          <img id="main-banner" src="images/main-banner.jpg" alt="main-banner">
+        </article>
+          <section>
+              <img id="main-banner" src="images/main-banner.jpg" alt="main-banner">
       </section>
-      <div id="about-us">
-          <img src="images/about-us.jpg" alt="about-us">
+      <div id="about-us-text">
+          <img id ="about-us" src="images/about-us.jpg" alt="about-us">
           <h2>About Us</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quidem nostrum ab modi architecto harum in quas quis autem placeat, odit praesentium aliquam officiis exercitationem eum quam hic eos dolorum.</p>
           <p>Reiciendis temporibus porro recusandae eos voluptates, voluptas necessitatibus delectus praesentium, culpa fugiat, ea ullam nemo facilis officiis perferendis provident aperiam! Distinctio architecto magni dignissimos sapiente eum corrupti at non modi.</p>
@@ -28,58 +32,71 @@
       <section>
           <h2 id="our-services">Our Services</h2>
       </section>
-      <div> <!--I opted to put all these sections under div due to their similar styling to ease css coding-->
-          <h2>Digital Transformation</h2>
+      <section class="grid-container">
+      <div class="grid-child-1"> <!--I opted to put all these sections under div due to their similar styling to ease css coding-->
+          <h3>Digital Transformation</h3>
           <img src="images/digital.jpg" alt="digital">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum sunt natus eveniet consequuntur asperiores, quo necessitatibus! Laborum numquam ab id fugit ducimus culpa, nam alias pariatur expedita porro atque?</p>
           <a href="https://odri0019.github.io/final-project">Digital Plans</a><!--each of the following anchors just link back to the page-->
       </div>
-      <div>
+      <div class="grid-child-2">
           <h3>Marketing</h3>
           <img id="marketing" src="images/marketing.jpg" alt="marketing">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui temporibus quaerat consectetur, amet, fuga enim numquam exercitationem maiores similique voluptate perferendis aperiam, sapiente eligendi provident labore aliquid mollitia facilis.</p>
           <a href="https://odri0019.github.io/final-project">Marketing Plans</a>
       </div>
-      <div>
+      </section>
+      <section class="grid-container-2">
+      <div class="grid-child-3">
           <h3>Video Production</h3>
           <img id="digital" src="images/video.jpg" alt="video">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore excepturi vel quaerat voluptates culpa asperiores adipisci dicta? Veniam excepturi accusantium, saepe aliquid, quisquam tenetur dolores voluptatibus natus, sint harum reiciendis!</p>
           <a href="https://odri0019.github.io/final-project">Video Plans</a>
       </div>
-      <div>
+      <div class="grid-child-4">
           <h3>Web Development</h3>
           <img id="web" src="images/web.jpg" alt="web">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae iste illo delectus adipisci, numquam nisi tenetur inventore molestias totam voluptatem unde soluta accusantium deleniti alias recusandae nam quisquam nihil!</p>
           <a href="https://odri0019.github.io/final-project">Web Plans</a>
       </div>
-      <div>
+      <div class="grid-child-5">
           <h3>Print</h3>
           <img id="print" src="images/print.jpg" alt="print">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem amet, deserunt aspernatur quos laborum dolorem obcaecati quod eligendi sit iure provident nemo accusamus eum error qui. Nesciunt, nulla. Praesentium?</p>
           <a href="https://odri0019.github.io/final-project">Print Plans</a>
       </div>
-      <section>
-          <img id="vision" src="images/vision.jpg" alt="vision">
+      </section>
+      <article id="visioncontainer">
+          <section id="our-vision">
           <h3>Our Vision</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ab fuga perferendis quidem laudantium quibusdam quae doloribus consequatur eaque similique error aspernatur molestiae unde hic laborum labore, totam, facere tempore.</p>
           <a href="https://odri0019.github.io/final-project">Learn More</a>
-      </section>
+          </section>
+          <section>
+            <img id="vision" src="images/vision.jpg" alt="vision">
+          </section>
+      </article>
       <section>
           <h2 id="our-team">Our Team</h2>
       </section>
-      <div>
-          <img src="images/john.jpg" alt="john">
+      <div id="containerjohn">
+          <img id="john" src="images/john.jpg" alt="john">
+          <article id="john-text">
           <h3>John Doe</h3>
           <p><strong>CEO and Co-owner</strong></p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia iusto. Cum, eius delectus earum similique deserunt quia dolor? Voluptate, nulla quos. Totam reprehenderit est, nihil perferendis illum quod sit!</p>
+          </article>
       </div>
-      <div>
-          <img src="images/bob.jpg" alt="bob">
+      <div id="containerbob">
+          <img id="bob" src="images/bob.jpg" alt="bob">
+          <article id="bob-text">
           <h3>Bob Rite</h3>
           <p><strong>CFO and Co-owner</strong></p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo reprehenderit illo fugit voluptas nihil animi possimus, repudiandae quisquam at sit aliquam, et consectetur dolorum illum, iste est obcaecati labore saepe.</p>
-      </div>
-      <section>
+          </article>
+        </div>
+      <section id="grid-container-3">
+        <section id="grid-child6">
           <h2 id="contact-us">Contact Us</h2>
           <h3>Send us a message</h3>
           <form>
@@ -89,14 +106,16 @@
             <input type="text" id="email" name="email"><br>
             <label for="message">Message</label><br>
             <input type="text" id="message" name="message"><br>
+            <input type="submit" id="submit" name="submit"><br>
           </form>
       </section>
-      <section>
+      <section id="gridchild7">
           <h3>Location</h3>
-      </section>
-      <div>
+        <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89668.50075236152!2d-75.78273486744503!3d45.3863335473583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638370405787!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
+        </div>
+    </section>
+</section>
       <footer>
           Copyright Three Star Media, 2020 - All images taken from Unsplash
       </footer>
